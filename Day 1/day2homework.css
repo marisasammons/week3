@@ -1,0 +1,166 @@
+
+
+html {
+    background: url(https://s-media-cache-ak0.pinimg.com/236x/cb/00/fd/cb00fde0814be3e1001dfd970bddb4cf.jpg) repeat-x;
+}
+
+body {
+    background: url(https://s-media-cache-ak0.pinimg.com/564x/4e/3b/c3/4e3bc354d075e80b6b8db76d33669263.jpg) repeat;
+    margin-top: 345px;
+    background-size: 40%;
+}
+
+.pretty{ 
+    border: 6px transparent; 
+    width: 50%; 
+    background-color:transparent; 
+    color:black; 
+     border-radius: 20px; 
+     border-style: ridge;
+     padding: 6px; 
+     margin-bottom: 60px;
+    }
+
+h1{
+    text-align:center;
+    font-family:cursive;
+    font-size: 70pt;
+    color:	#DA70D6;
+}
+
+
+
+
+/* Nav Bar */
+
+.nav{
+    border:1px solid mediumvioletred;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+   background-color: #DBDBDB;
+    
+}
+
+.nav li{
+    display:inline;
+  
+    
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+    background-color: #DBDBDB;
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color:black;
+    font-family:cursive;
+    font-size: 30;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:#DBDBDB;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:turquoise;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: plum}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* Styling for Pen, unrelated to float */
+.left {
+  float: left;
+  margin-right: 0em;
+}
+
+.right {
+  float: right;
+  margin-left: 1em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+article{
+    font-family: cursive;
+    font-size: 26;
+    color: slategrey;
+    background-color:#FFF0F5;
+     border: 10px turquoise; 
+     width: 65%; 
+     border-radius: 60px; 
+     border-style: ridge;
+      padding: 1em;
+     margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+  text-transform: uppercase;
+  padding: .2em;
+  margin: 0;
+}
+
+figure img {
+  max-width: 50%;
+}
+
+@media all and (max-width: 1100px) {
+  article {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 950px) {
+  article {
+    width: 95%;
+  }
+}

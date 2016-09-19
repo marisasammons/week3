@@ -1,0 +1,16 @@
+    body {
+        background: pink;
+        margin:20px; 
+            }
+        .blueMed {
+            color: blue;
+            font-size: 14pt;
+        }
+        .purpleLg {
+            color:rgb(157, 0, 255) ;
+            font-size:20pt;
+        }
+        .crazyblue {
+            color: #00FFA2;
+        }
+        
